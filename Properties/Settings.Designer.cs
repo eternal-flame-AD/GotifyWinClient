@@ -25,7 +25,7 @@ namespace GotifyWinClient.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ws://example.com/stream?token=Cabcd")]
         public string GotifyUrl {
             get {
                 return ((string)(this["GotifyUrl"]));
